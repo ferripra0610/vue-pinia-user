@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer components {
+    .input {
+        @apply w-full p-2 border rounded mb-2;
+    }
+
+    .btn {
+        @apply px-2 py-2 rounded border bg-blue-500 text-white mx-1 min-w-10;
+    }
+
+    .btn:hover{
+        @apply px-3 py-2 rounded border bg-blue-500 text-white mx-1 shadow-2xl; 
+    }
+
+    .col-td {
+        @apply  px-3 py-2;
+    }
+
+
+
+    .col-th {
+        @apply bg-emerald-400 px-4 py-4;
+    }
+}
